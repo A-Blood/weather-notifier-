@@ -9,7 +9,7 @@ The first thing I did was find an API to work with. I chose OpenWeather's free A
 
 While building it, I started thinking about how I could make it even more useful. I thought about turning it into a child clothing recommendation tool — something that could tell me whether to dress my kids in raincoats, sunscreen, or warm clothes depending on the weather. I also wanted the script to take their ages into account, automatically switching advice from "under 1" to "over 1" when my youngest had their birthday, and offering specific advice for toddlers and older kids.
 
-I realized, though, that the free OpenWeather API only gives the current weather, not the forecast or UV index that I would need. I learned I would have to buy access to their One Call API to get that extra data. I also discovered Buienalarm — a free Dutch rain forecast service — and thought about combining it to send more frequent rain warnings through the day.
+I realized, though, that the free OpenWeather API only gives the current weather, not the forecast or UV index that I would need. I learned I would have to buy access to their One Call API to get that extra data. I also discovered Buienalarm — a free Dutch rain forecast service — has a openend access for private use. I thought about combining it to send more frequent rain warnings through the day. but the Buienalarm only provides up to date info every 2 hours and scheduling a new  email every 2 hours was too overwhelming for my first project 
 
 But pretty quickly, I realized I was getting ahead of myself. I decided it would be smarter to focus on building the basic version first and making sure it worked well.
 
