@@ -29,7 +29,7 @@ There were a few problems along the way: my project was originally built inside 
 
 After I finally got it up on GitHub, I decided to re-run the script just to be safe. This time, though, I ran into a new problem: a No pyvenv.cfg file error. Even just running python showed errors. It turned out that because I installed Python originally through Visual Studio, some pieces weren’t fully set up for managing virtual environments.
 
-I decided to fully uninstall Python from Visual Studio and then reinstall it properly using the official Python website. This time, I made sure to add Python to PATH during installation. After reinstalling, I recreated my virtual environment, reinstalled my packages, and reran the script — and it worked perfectly.
+I decided to fully uninstall Python from Visual Studio.but decided to continue with Visual studios over the official website. After reinstalling, I recreated my virtual environment, reinstalled my packages, and reran the script — and it worked perfectly.
 
 Through this project, I learned so much more than just how to call an API or send an email. I learned how to think about feature scaling, how to build safely with environment files, how to manage real-world errors, and how to properly upload and manage projects on GitHub. More importantly, I learned that real-world coding isn’t about getting things right the first time — it’s about pushing through confusion, fixing broken environments, and staying patient when everything feels like it's going wrong.
 
