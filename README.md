@@ -25,7 +25,7 @@ After fixing some environment syncing issues (mostly by saving, closing, and reo
 
 Next, I wanted to push my project to GitHub. At first, I thought I'd have to manually copy the files over, but after researching a bit, I realized I could connect my local VS Code project to GitHub directly. I learned to install GitHub Desktop, properly initialize Git, and connect my repository.
 
-There were a few problems along the way: my project was originally built inside the venv folder, which caused issues when trying to push (because Git tried to upload thousands of unnecessary virtual environment files). After figuring that out, I created a clean new project folder (Weather-), moved my scripts, reinitialized Git, and reconnected to GitHub properly.
+There were a few problems along the way: my project was originally built inside the venv folder, which caused issues when trying to push. After figuring that out, I created a clean new project folder (Weather-), moved my scripts, reinitialized Git, and reconnected to GitHub properly.
 
 After I finally got it up on GitHub, I decided to re-run the script just to be safe. This time, though, I ran into a new problem: a No pyvenv.cfg file error. Even just running python showed errors. It turned out that because I installed Python originally through Visual Studio, some pieces weren’t fully set up for managing virtual environments.
 
